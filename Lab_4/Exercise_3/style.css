@@ -1,0 +1,18 @@
+input[type=text].username {
+    width: 100px;
+    border: 1px solid;
+}
+input[type=text].numGoats {
+  width: 50px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+table {
+  border: 3px dotted black;
+}
+td {
+  text-align: left;
+}
+td.desc {
+  text-align: center;
+}

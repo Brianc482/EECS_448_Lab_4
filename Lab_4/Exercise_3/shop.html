@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript" src="script.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h2>Welcome to my web store!</h2>
+    <form name="blockForm" action="shop.php" onsubmit="validate()" method="post">
+      Username: <input type="text" class="name"  name= "username" id="username" placeholder="Username" required> <br>
+      Password: <input type="password" name="password" id="password" placeholder="Password" required> <br>
+      <br>
+
+      We offer goats in 5 fun colors! Which color of goats would you like and how many?<br>
+
+      <b>Purple Goats($25.00):</b> <input type="text" class="numGoats" name="purpleGoats" id="purple"> <br>
+      <b>Black Goats($30.00):</b> <input type="text" class="numGoats" name="blackGoats" id="black"> <br>
+      <b>Blue Goats($40.00):</b> <input type="text" class="numGoats" name="blueGoats" id="blue"> <br>
+      <b>Green Goats($50.00):</b> <input type="text" class="numGoats" name="greenGoats" id="green"> <br>
+      <b>Red Goats($75.00):</b> <input type="text" class="numGoats" name="redGoats" id="red"> <br>
+      <br>
+
+      You must now select how you would like the merchandise to be shipped.<br>
+      Please select from the following options: <br>
+
+      <input type="radio" name="shipping" value="sevenDay" checked>Free 7 day Shipping <br>
+      <input type="radio" name="shipping" value="overnight">$50.00 over night Shipping <br>
+      <input type="radio" name="shipping" value="threeDay">$5.00 3 day Shipping <br>
+
+      <input type="reset" name="Reset Form">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
