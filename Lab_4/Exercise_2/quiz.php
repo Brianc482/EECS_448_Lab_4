@@ -1,11 +1,9 @@
 <?php
-  echo "hello world";
   $question1 = $_POST["Q1"];
   $question2 = $_POST["Q2"];
   $question3 = $_POST["Q3"];
   $question4 = $_POST["Q4"];
   $question5 = $_POST["Q5"];
-  echo "Questions are ".$question1." ".$question2." ".$question3;
   $correctAnswers = 0;
   echo "<h2>Here are the answers to the Quiz.</h2><br>";
   echo "<b>Question 1:</b> Who is on the US $1 bill?<br>";
